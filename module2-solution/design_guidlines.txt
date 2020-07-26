@@ -1,0 +1,32 @@
+desktop  992px and above
+tablet view width between 768px and 991px, inclusively. 
+Mobile view width equal to or less than 767px.
+
+* Desktop layout:
+- las 3 secciones ocupan el mismo lugar, expandir o achicarse por igual
+- usar porcentajes y float property. Lección 24. 
+
+* Tablet layout
+- 1° línea con las 2 secciones. Mismo tamaño.
+- 2° línea con la 3 sección. Padding del ancho de las dos primeras.
+
+* Mobile layout
+- 1 línea completa por cada sección
+
+* Título de Sección
+- Siempre top right corner
+- Chicken, Beef, Sushi
+- Usar relative y absolute positioning and offsets. Lección 22
+
+* Spacing
+- Espacio entre el borde de la venta y las secciones (margenes?)
+- Espacio entre el texto y el borde de cada sección (padding?)
+- El texto no debe tapar el título de la sección
+- Usar margins, padding, border-box as box-sizing  Lección 19
+
+* Bordes y color
+- Usar un background color distinto para cada sección
+- Usar un background color para los títulos
+- Asegurarse de poder leer el texto
+- Usar otra font
+
