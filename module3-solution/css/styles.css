@@ -1,0 +1,83 @@
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+    background-color:white;
+}
+
+#header-nav {
+    background-color: midnightblue;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header {
+    height: 75px;
+}
+
+.navbar-brand h1 {
+    color: white;
+    margin-top: 5px;
+}
+
+.navbar-header button.navbar-toogle, .navbar-header .icon-bar {
+    border: 1px solid white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: grey;
+}
+
+.navbar-header button.navbar-toogle {
+    clear: both;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 10px;
+    height: 50px;
+}
+
+#hdrmenu-list .nav-item a {
+    background-color: lightgrey;
+    color: midnightblue;
+    border: 1px solid;
+}
+
+#hdrmenu-list .nav-item a:hover {
+    background-color: midnightblue;
+    color: white;
+}
+
+body h1 {
+    padding-bottom: 3rem;
+}
+
+#main-tile {
+    background-color: lightgrey;
+}
+
+ @media (min-width: 768px) {
+
+    .navbar-brand h1 {
+        margin-left: 2rem;
+    }
+
+    #main-row {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+
+    .navbar-brand h1 {
+        margin-left: 2rem;
+    }
+
+    #main-row {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
